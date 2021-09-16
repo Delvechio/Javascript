@@ -3,8 +3,6 @@ console.log(`Trabalhando com listas`);
 // const saoPaulo = `São Paulo`;
 // const rioDeJaneiro = `Rio de Janeiro`;
 
-let new = 2;
-
 const listaDeDestinos = new Array(
     `Salvador`,
     `São Paulo`,
@@ -16,7 +14,7 @@ console.log("Destinos possíveis:");
 //console.log(salvador, saoPaulo, rioDeJaneiro)
 console.log(listaDeDestinos);
 
-listaDeDestinos.splice(1,1);
+listaDeDestinos.splice(1,1); // deletando um item na lista
 console.log(listaDeDestinos);
 
 
